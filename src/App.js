@@ -6,7 +6,7 @@ import { Student } from './components/Student';
 
 function App() {
   const hlo=()=>{
-    alert("Welcome to Star HEalth")
+    alert("Welcome to Star Health...")
 }
 
   return (
