@@ -1,14 +1,9 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-export const City = (props) => {
-   
-  return (
-    <div>
-        <h3>Props Data pass .....{props.dprt}</h3>
-
-       
-
-    </div>
-    
-  )
+export default class City extends React.Component {
+  render() {
+    return (
+      <div>City</div>
+    )
+  }
 }

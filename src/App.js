@@ -2,7 +2,7 @@ import react, { useState } from "react";
 import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
 import "./App.css";
 import { Depeartment } from "./components/Depeartment";
-import { Student } from "./components/Student";
+import { Student } from "./components/Mobile";
 
 function App() {
   const hlo = () => {
